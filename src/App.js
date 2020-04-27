@@ -6,6 +6,7 @@ import Navbar from "./components/navbar.component";
 import Home from "./components/home.component";
 import About from "./components/about.component";
 import Projects from "./components/projects.component";
+import GamingCollegiateProfessional from "./components/gaming-collegiate-professional.component";
 // import ExercisesList from "./components/exercises-list.component";
 // import EditExercise from "./components/edit-exercises.component";
 // import CreateExercise from "./components/create-exercise.component";
@@ -21,10 +22,13 @@ function App() {
       <Route path="/" exact component = {Home} />
       <Route path="/About" exact component = {About}/>
       <Route path="/Projects" exact component = {Projects}/>
+      <Route path="/Gaming_Collegiate" exact component = {GamingCollegiateProfessional}/>
+
       {/* 
       <Route path="/edit/:id"  component = {EditExercise} />
       <Route path="/create"  component = {CreateExercise} />
       <Route path="/user" exact component = {CreateUser} /> */}
+      
       {/* </div> */}
     </Router>
   );

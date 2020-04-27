@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
+import Gaming from "./navbar-gaming.component";
 
 export default class Navbar extends Component {
 
@@ -20,6 +21,11 @@ export default class Navbar extends Component {
                     <li className = "navbar-item">
                     <Link to="/Projects" className = "nav-link"> Projects </Link>
                     </li>
+
+                    <li className = "nav-link">
+                    <Gaming/>
+                    </li>
+
                 </ul>
                 </div>
             </nav>
