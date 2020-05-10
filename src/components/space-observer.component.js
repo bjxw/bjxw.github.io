@@ -53,9 +53,17 @@ export default class SpaceObserver extends Component{
                 
                 NU vs UNCC
                 
-                UA vs NAU
+                UA vs NAU x2
                 
-                SDN vs LSU
+                SDN vs LSU x2
+
+                TTU vs UIC x3
+
+                FIU vs AUB x2
+
+                TAMU vs UAH x2
+
+                NAU vs AUB x2
             </div>
         );
     }
