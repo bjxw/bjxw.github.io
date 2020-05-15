@@ -1,5 +1,5 @@
 .home-background{
-    background: url("../../images/Home.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../../images/Home.jpg");
     background-position: 100% 120%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -17,8 +17,6 @@
     font-size: 48px;
     padding: 5%;
     opacity: 0;
-
-    
 }
 
 .home-animation{
