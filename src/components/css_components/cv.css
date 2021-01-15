@@ -1,0 +1,30 @@
+.cv-background{
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../../images/Oval.jpg");
+    background-position: 100% 120%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100%; 
+    width: 100%;
+    position: fixed;
+}
+
+.avatar {
+    position: relative;
+    height: 15%;
+    border-radius: 50%;
+    top: 0%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cv-content{
+    margin: 0;
+    position: relative;
+    top: 0%;
+    left: 60%;
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    width: 50%;
+}

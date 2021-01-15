@@ -1,5 +1,5 @@
 .home-background{
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../../images/Home.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../../images/Oval.jpg");
     background-position: 100% 120%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -17,6 +17,14 @@
     font-size: 48px;
     padding: 5%;
     opacity: 0;
+
+    margin: 0;
+    position: relative;
+    top: 5%;
+    left: 50%;
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    width: 50%;
 }
 
 .home-animation{
@@ -30,11 +38,11 @@
     white-space: pre-wrap;
 }
 
-.home-animation:hover{
+/* .home-animation:hover{
     cursor: pointer;
     color: gray;
     text-decoration: none;
-}
+} */
 
 .home-animation a:nth-child(1) {animation-delay: 1s;}
 .home-animation a:nth-child(2) {animation-delay: 3s;}
@@ -43,4 +51,14 @@
 @keyframes title{
     0% {opacity: 0;}
     100% {opacity: 1;}
+}
+
+.avatar {
+    position: relative;
+    height: 25%;
+    border-radius: 50%;
+    top: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
